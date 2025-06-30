@@ -14,5 +14,7 @@ class ColorProvider extends ChangeNotifier {
       Random().nextInt(256),
       1,
     );
+
+    notifyListeners();
   }
 }
