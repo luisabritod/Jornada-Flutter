@@ -34,6 +34,13 @@ class PaginaContador extends StatelessWidget {
         children: [
           FloatingActionButton(
             onPressed: () {
+              Provider.of<ContadorProvider>(context, listen: false).zerar();
+            },
+            child: Icon(Icons.refresh),
+          ),
+          SizedBox(width: 190),
+          FloatingActionButton(
+            onPressed: () {
               Provider.of<ContadorProvider>(
                 context,
                 listen: false,
