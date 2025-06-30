@@ -29,11 +29,29 @@ class PaginaContador extends StatelessWidget {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Provider.of<ContadorProvider>(context, listen: false).incrementar();
-        },
-        child: Icon(Icons.add),
+      floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            onPressed: () {
+              Provider.of<ContadorProvider>(
+                context,
+                listen: false,
+              ).decrementar();
+            },
+            child: Icon(Icons.remove),
+          ),
+          SizedBox(width: 10),
+          FloatingActionButton(
+            onPressed: () {
+              Provider.of<ContadorProvider>(
+                context,
+                listen: false,
+              ).incrementar();
+            },
+            child: Icon(Icons.add),
+          ),
+        ],
       ),
     );
   }
