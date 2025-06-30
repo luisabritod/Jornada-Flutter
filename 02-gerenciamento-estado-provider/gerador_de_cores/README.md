@@ -1,16 +1,14 @@
-# gerador_de_cores
+# 🎨 Gerador de Cores com Provider
 
-A new Flutter project.
+Este projeto é uma continuação dos estudos sobre Gerenciamento de Estado, aplicando os conceitos do `provider` em um cenário mais visual e com um objeto de estado diferente (`Color`).
 
-## Getting Started
+## 🎯 Funcionalidades
 
-This project is a starting point for a Flutter application.
+-   Gera uma nova cor aleatória para o fundo da tela a cada clique.
+-   Exibe o código RGB da cor atual.
+-   A interface é totalmente reativa à mudança de estado da cor.
 
-A few resources to get you started if this is your first Flutter project:
+## 🎬 Demonstração
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Demonstração do App Gerador de Cores](./assets/gerador_cores_demo.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
