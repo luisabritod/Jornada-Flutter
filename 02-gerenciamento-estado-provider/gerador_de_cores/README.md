@@ -10,5 +10,5 @@ Este projeto é uma continuação dos estudos sobre Gerenciamento de Estado, apl
 
 ## 🎬 Demonstração
 
-![Demonstração do App Gerador de Cores](assets/gerador_cores_demo.gif)
+![Demonstração do App Gerador de Cores](assets/gerador_de_cores_demo.gif)
 
