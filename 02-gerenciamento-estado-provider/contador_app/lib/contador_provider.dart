@@ -14,4 +14,16 @@ class ContadorProvider extends ChangeNotifier {
     // notifica o aplicativo
     notifyListeners();
   }
+
+  void decrementar() {
+    _numero--;
+
+    notifyListeners();
+  }
+
+  void zerar() {
+    _numero = 0;
+
+    notifyListeners();
+  }
 }
