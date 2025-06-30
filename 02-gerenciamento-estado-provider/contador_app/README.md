@@ -1,16 +1,17 @@
-# contador_app
+# 🔢 App Contador com Provider
 
-A new Flutter project.
+Este é o primeiro projeto do módulo de Gerenciamento de Estado, focado em solidificar os conceitos básicos do pacote `provider`.
 
-## Getting Started
+## 🎯 Funcionalidades
 
-This project is a starting point for a Flutter application.
+-   Incrementar o contador.
+-   Decrementar o contador, com a cor do número mudando para vermelho para valores negativos.
+-   Zerar o contador.
 
-A few resources to get you started if this is your first Flutter project:
+## 🎬 Demonstração
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Demonstração do App Contador](assets/contador_demo.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 💡 Aprendizados
+
+Este projeto foi minha introdução prática ao Provider. A analogia da "Rádio Comunitária" foi fundamental para entender o fluxo de dados. A melhor parte foi ver como a UI se reconstrói de forma eficiente usando o `Consumer`, sem precisar de `setState()`.
