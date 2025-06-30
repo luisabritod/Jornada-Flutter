@@ -11,8 +11,8 @@ Meu objetivo aqui não é apenas guardar códigos, mas construir um portfólio q
 Aqui estão os tópicos que já explorei, cada um em sua própria pasta com um README detalhado.
 
 * **[01 - Fundamentos de Programação Orientada a Objetos (POO)](./01-fundamentos-poo)**
-* *(Em breve: 02 - Gerenciamento de Estado com Provider)*
-* *(Em breve: ...)*
+* **[02 - Gerenciamento de Estado com Provider](./02-gerenciamento-estado-provider)**
+* *(Em breve: 03 - App To-Do List (Projeto Completo))*
 
 ---
 
