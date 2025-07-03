@@ -24,7 +24,9 @@ class HomePage extends StatelessWidget {
                 ),
                 leading: Checkbox(
                   value: tarefa.tarefas[index].isDone,
-                  onChanged: (value) {},
+                  onChanged: (value) {
+                    tarefa.toggleEstadoTarefa(tarefa.tarefas[index].id);
+                  },
                 ),
               );
             },

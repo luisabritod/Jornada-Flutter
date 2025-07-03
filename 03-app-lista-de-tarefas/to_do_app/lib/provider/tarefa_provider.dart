@@ -13,4 +13,13 @@ class TarefaProvider extends ChangeNotifier {
 
     notifyListeners();
   }
+
+  void toggleEstadoTarefa(String id) {
+    // método firstWhere é usado para encontrar a tarefa correspondente na lista que tem o ID passado
+    final tarefa = _tarefas.firstWhere((tarefa) => tarefa.id == id);
+
+    tarefa.isDone = !tarefa.isDone;
+
+    notifyListeners();
+  }
 }
