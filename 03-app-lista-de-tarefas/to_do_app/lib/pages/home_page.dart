@@ -36,6 +36,13 @@ class HomePage extends StatelessWidget {
                     tarefa.toggleEstadoTarefa(tarefa.tarefas[index].id);
                   },
                 ),
+                trailing: IconButton(
+                  onPressed: () {
+                    tarefa.removerTarefa(tarefa.tarefas[index].id);
+                  },
+                  color: Colors.red[200],
+                  icon: Icon(Icons.delete),
+                ),
               );
             },
             itemCount: tarefa.tarefas.length,

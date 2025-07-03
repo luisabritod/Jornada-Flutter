@@ -22,4 +22,11 @@ class TarefaProvider extends ChangeNotifier {
 
     notifyListeners();
   }
+
+  void removerTarefa(String id) {
+    // método removeWhere remove a tarefa com o id correspondente
+    _tarefas.removeWhere((tarefa) => tarefa.id == id);
+
+    notifyListeners();
+  }
 }
