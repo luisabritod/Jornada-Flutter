@@ -20,7 +20,15 @@ class HomePage extends StatelessWidget {
               return ListTile(
                 title: Text(
                   tarefa.tarefas[index].titulo,
-                  style: TextStyle(color: Colors.purple[800], fontSize: 20),
+                  style: TextStyle(
+                    color: tarefa.tarefas[index].isDone
+                        ? Colors.grey[600]
+                        : Colors.black,
+                    fontSize: 20,
+                    decoration: tarefa.tarefas[index].isDone
+                        ? TextDecoration.lineThrough
+                        : TextDecoration.none,
+                  ),
                 ),
                 leading: Checkbox(
                   value: tarefa.tarefas[index].isDone,
