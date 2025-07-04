@@ -5,6 +5,6 @@ class ConselhoModel {
   ConselhoModel({required this.id, required this.texto});
 
   factory ConselhoModel.fromJson(Map<String, dynamic> json) {
-    return ConselhoModel(id: json['slip']['id'], texto: json['slip']['texto']);
+    return ConselhoModel(id: json['slip']['id'], texto: json['slip']['advice']);
   }
 }
