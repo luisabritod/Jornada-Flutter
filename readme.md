@@ -13,7 +13,9 @@ Aqui estão os tópicos que já explorei, cada um em sua própria pasta com um R
 * **[01 - Fundamentos de Programação Orientada a Objetos (POO)](./01-fundamentos-poo)**
 * **[02 - Gerenciamento de Estado com Provider](./02-gerenciamento-estado-provider)**
 * **[03 - App To-Do List (Projeto Completo)](./03-app-lista-de-tarefas)**
-* *(Em breve: 04 - Conectando o App com a Internet via APIs)*
+* **[04 - Conectando o App com a Internet via APIs](./04-consumindo-apis)**
+* *(Em breve: 05 - Navegação e Múltiplas Telas)*
+
 
 ---
 
