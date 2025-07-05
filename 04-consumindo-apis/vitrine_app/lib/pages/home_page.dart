@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                         Padding(
                           padding: EdgeInsetsGeometry.all(8),
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               Text(
                                 produto.title,
