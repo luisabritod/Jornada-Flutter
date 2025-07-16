@@ -13,31 +13,7 @@ class ReceitasProvider extends ChangeNotifier {
   bool get carregando => _carregando;
   ReceitaDetalhada? get receitaDetalhada => _receitaDetalhada;
 
-  void buscarReceitas() async {
-    _carregando = true;
-    notifyListeners();
-
-    try {
-      final response = await http.get(
-        Uri.parse(
-          "https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert",
-        ),
-      );
-
-      final json = jsonDecode(response.body);
-
-      final List<dynamic> listaDeReceitas = json["meals"];
-
-      _receitas = listaDeReceitas
-          .map((item) => ReceitaResumo.fromJson(item))
-          .toList();
-    } catch (e) {
-      print(e);
-    } finally {
-      _carregando = false;
-      notifyListeners();
-    }
-  }
+  void buscarReceitas() async {}
 
   void buscarDetalhesDaReceita(String id) async {
     _carregando = true;
