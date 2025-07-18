@@ -14,8 +14,8 @@ Aqui estão os tópicos que já explorei, cada um em sua própria pasta com um R
 * **[02 - Gerenciamento de Estado com Provider](./02-gerenciamento-estado-provider)**
 * **[03 - App To-Do List (Projeto Completo)](./03-app-lista-de-tarefas)**
 * **[04 - Conectando o App com a Internet via APIs](./04-consumindo-apis)**
-* *(Em breve: 05 - Navegação e Múltiplas Telas)*
-
+* **[05 - Navegação e Múltiplas Telas (Guia Culinário)](./05-navegacao-e-multiplas-telas)**
+* *(Em breve: 06 - Bootcamp de Gerenciamento de Estado: GetX e BLoC)*
 
 ---
 
