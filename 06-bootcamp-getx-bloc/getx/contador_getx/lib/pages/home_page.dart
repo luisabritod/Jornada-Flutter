@@ -36,10 +36,25 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        // chamamos o método do nosso controller
-        onPressed: controller.incrementar,
-        child: Icon(Icons.add),
+      floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            onPressed: controller.reset,
+            child: Icon(Icons.refresh),
+          ),
+          SizedBox(width: 190),
+          FloatingActionButton(
+            onPressed: controller.decrementar,
+            child: Icon(Icons.remove),
+          ),
+          SizedBox(width: 10),
+          FloatingActionButton(
+            // chamamos o método do nosso controller
+            onPressed: controller.incrementar,
+            child: Icon(Icons.add),
+          ),
+        ],
       ),
     );
   }
