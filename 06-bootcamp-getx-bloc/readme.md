@@ -11,9 +11,9 @@ O objetivo foi construir os mesmos aplicativos usando abordagens diferentes para
 ### 1. **GetX**
 Foco em produtividade e simplicidade, reduzindo a quantidade de código necessário para tarefas comuns como gerenciamento de estado, rotas e dependências.
 
-* **[➡️ Ver Projetos com GetX](./getx/README.md)**
+* **[➡️ Ver Projetos com GetX](./getx/readme.md)**
 
 ### 2. **BLoC (Business Logic Component)**
 Foco em robustez, escalabilidade e testabilidade. Promove uma separação total entre a lógica de negócio e a interface do usuário através de um fluxo de Eventos e Estados.
 
-* **[➡️ Ver Projetos com BLoC](./bloc/README.md)**
+* **[➡️ Ver Projetos com BLoC](./bloc/readme.md)**
