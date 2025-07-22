@@ -6,7 +6,7 @@ import 'package:meta/meta.dart';
 part 'conselho_event.dart';
 part 'conselho_state.dart';
 
-class ConselhoBloc extends Bloc {
+class ConselhoBloc extends Bloc<ConselhoEvent, ConselhoState> {
   final ConselhoService _conselhoService = ConselhoService();
 
   ConselhoBloc() : super(ConselhoInicial()) {
