@@ -15,3 +15,8 @@ Um projeto simples para entender os fundamentos do GetX, como `GetxController`, 
 Um app que consome uma API para praticar operações assíncronas, gerenciamento de estado de requisição (loading/error) e a arquitetura com Service Layer, usando a injeção de dependências do GetX.
 
 * **[➡️ Ver Detalhes do App Gerador de Conselhos](./conselhos_getx/README.md)**
+
+### 3. **Vitrine de Produtos**
+Um app que consome a Fake Store API para praticar operações assíncronas, gerenciamento de uma lista reativa e a arquitetura com Service Layer usando a injeção de dependências do GetX.
+
+* **[➡️ Ver Detalhes do App Vitrine de Produtos](./vitrine_getx/README.md)**
