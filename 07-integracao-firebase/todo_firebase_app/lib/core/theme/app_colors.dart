@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   // paleta principal
-  final Color primary = Color(0xFFAE92C9); //lílas
-  final Color accent = Color(0xFF7Ea4bb); //azul acinzentado
+  static const Color primary = Color(0xFFAE92C9); //lílas
+  static const Color accent = Color(0xFF7Ea4bb); //azul acinzentado
 
   // cores neutras
   static const Color background = Color(0xFFFAF9FB); // branco levemente lilás
