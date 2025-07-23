@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401093074757",
+    "project_id": "lista-de-tarefas-app-f7bca",
+    "storage_bucket": "lista-de-tarefas-app-f7bca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401093074757:android:6666724ff2fbce929c282c",
+        "android_client_info": {
+          "package_name": "br.com.luisa.dev.todo_firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgVjUTYXBVpK0XNW4WHZ_kiZ03MuXpCBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
