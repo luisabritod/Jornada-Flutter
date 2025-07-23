@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:todo_firebase_app/features/to_do/to_do.dart';
+import 'package:todo_firebase_app/core/core.dart';
+import 'package:todo_firebase_app/features/tarefas/tarefas.dart';
 import 'package:todo_firebase_app/firebase_options.dart';
 
 // main() agora é async e retorna um Future<void>
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'To-Do App Firebase',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
