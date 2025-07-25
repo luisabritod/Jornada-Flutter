@@ -29,4 +29,9 @@ class TarefaService {
           FieldValue.serverTimestamp(), // boa prática: salva a data de criação
     });
   }
+
+  // --- MÉTODO PARA ATUALIZAR UMA TAREFA (UPDATE) ---
+  Future<void> atualizarStatusTarefa(String id, bool statusAtual) {
+    return _tarefasCollection.doc(id).update({'concluida': !statusAtual});
+  }
 }

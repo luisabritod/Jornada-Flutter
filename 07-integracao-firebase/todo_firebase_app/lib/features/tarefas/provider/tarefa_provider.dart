@@ -41,6 +41,10 @@ class TarefaProvider extends ChangeNotifier {
     return _service.adicionarTarefa(titulo);
   }
 
+  Future<void> toggleEstadoTarefa(String id, bool statusAtual) {
+    return _service.atualizarStatusTarefa(id, statusAtual);
+  }
+
   @override
   void dispose() {
     // quando o Provider for "desligado", a gente "fecha a torneira" do cano para não gastar recurso atoa

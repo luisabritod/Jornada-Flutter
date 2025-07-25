@@ -18,17 +18,23 @@ class HomePage extends StatelessWidget {
         builder: (context, provider, child) {
           return ListView.builder(
             itemBuilder: (context, index) {
-              if (provider.tarefas.isEmpty) {
+              var tarefa = provider.tarefas;
+              if (tarefa.isEmpty) {
                 return Center(
                   child: Text('Nenhuma tarefa ainda. Adicione uma!'),
                 );
               }
 
               return ListTile(
-                title: Text(provider.tarefas[index].titulo),
+                title: Text(tarefa[index].titulo),
                 leading: Checkbox(
-                  value: provider.tarefas[index].concluida,
-                  onChanged: (show) {},
+                  value: tarefa[index].concluida,
+                  onChanged: (value) {
+                    provider.toggleEstadoTarefa(
+                      tarefa[index].id,
+                      tarefa[index].concluida,
+                    );
+                  },
                 ),
               );
             },
