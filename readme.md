@@ -16,6 +16,7 @@ Aqui estão os tópicos que já explorei, cada um em sua própria pasta com um R
 * **[04 - Conectando o App com a Internet via APIs](./04-consumindo-apis)**
 * **[05 - Navegação e Múltiplas Telas (Guia Culinário)](./05-navegacao-e-multiplas-telas)**
 * **[06 - Bootcamp de Gerenciamento de Estado: GetX e BLoC](./06-bootcamp-getx-bloc)**
+* **[07 - Integração com Backend (Firebase)](./07-integracao-firebase)**
 * *(Em breve: Próximos Passos!)*
 
 ---
