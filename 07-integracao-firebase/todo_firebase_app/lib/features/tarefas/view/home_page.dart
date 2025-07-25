@@ -36,6 +36,12 @@ class HomePage extends StatelessWidget {
                     );
                   },
                 ),
+                trailing: IconButton(
+                  onPressed: () {
+                    provider.deletarTarefa(tarefa[index].id);
+                  },
+                  icon: Icon(Icons.delete, color: AppColors.error),
+                ),
               );
             },
             itemCount: provider.tarefas.length,

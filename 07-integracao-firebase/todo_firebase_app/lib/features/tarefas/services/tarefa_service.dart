@@ -34,4 +34,11 @@ class TarefaService {
   Future<void> atualizarStatusTarefa(String id, bool statusAtual) {
     return _tarefasCollection.doc(id).update({'concluida': !statusAtual});
   }
+
+  // --- MÉTODO PARA DELETAR UMA TAREFA (DELETE) ---
+  Future<void> deletarTarefa(String id) {
+    // o método .doc(id) encontra o documento específico
+    // o .delete() o remove
+    return _tarefasCollection.doc(id).delete();
+  }
 }
