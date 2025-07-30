@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93471930782",
+    "project_id": "loja-getx-firebase",
+    "storage_bucket": "loja-getx-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93471930782:android:3805718b3ae47ea6823e8f",
+        "android_client_info": {
+          "package_name": "br.com.luisa.dev.loja_getx_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlNiDYAlGt8DU73kJdaBJMOpOb3eMVfuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
