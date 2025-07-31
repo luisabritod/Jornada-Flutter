@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:loja_getx_firebase/features/carrinho/controllers/carrinho_controller.dart';
 import 'package:loja_getx_firebase/features/carrinho/services/carrinho_service.dart';
+import 'package:loja_getx_firebase/features/carrinho/view/carrinho_page.dart';
 import 'package:loja_getx_firebase/features/produtos/controllers/produto_controller.dart';
 import 'package:loja_getx_firebase/features/produtos/services/produto_service.dart';
 
@@ -15,7 +16,17 @@ class ProdutoPage extends StatelessWidget {
     final CarrinhoService carrinhoService = Get.put(CarrinhoService());
     final CarrinhoController carrinhoController = Get.put(CarrinhoController());
     return Scaffold(
-      appBar: AppBar(title: Text('Loja')),
+      appBar: AppBar(
+        title: Text('Loja'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Get.to(() => CarrinhoPage());
+            },
+            icon: Icon(Icons.shopping_cart),
+          ),
+        ],
+      ),
       body: Obx(() {
         if (produtoController.carregando.value) {
           return Center(child: CircularProgressIndicator());
