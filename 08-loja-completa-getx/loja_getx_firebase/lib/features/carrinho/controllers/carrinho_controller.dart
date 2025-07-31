@@ -21,4 +21,12 @@ class CarrinhoController extends GetxController {
   }
 
   Future<void> removerItem() async {}
+
+  double get totalCarrinho {
+    if (itens.isEmpty) {
+      return 0.0;
+    }
+
+    return itens.fold(0.0, (soma, item) => soma + (item.price * item.quantity));
+  }
 }

@@ -35,6 +35,17 @@ class CarrinhoPage extends StatelessWidget {
           itemCount: carrinhoController.itens.length,
         );
       }),
+      bottomNavigationBar: BottomAppBar(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+          child: Obx(() {
+            return Text(
+              'Total: R\$ ${carrinhoController.totalCarrinho.toStringAsFixed(2)}',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            );
+          }),
+        ),
+      ),
     );
   }
 }
