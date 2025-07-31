@@ -5,7 +5,7 @@ class ItemCarrinho {
   final String title;
   final double price;
   final String image;
-  final int quantity;
+  int quantity;
 
   ItemCarrinho({
     required this.id,
