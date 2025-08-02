@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144754486345",
+    "project_id": "social-app-d5767",
+    "storage_bucket": "social-app-d5767.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144754486345:android:945a9710f3899592d5a398",
+        "android_client_info": {
+          "package_name": "br.com.luisa.dev.social_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVrtQ5OBft8xa9Q-YYpeGP_RnkWWVdoMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
